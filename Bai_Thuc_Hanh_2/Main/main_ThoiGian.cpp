@@ -13,8 +13,5 @@ int main() {
     cout << "Thoi gian tinh cong them mot giay: ";
     next_tg.Xuat();
 
-    cout << endl << endl << endl;
-    int a; cin >> a;
-
     return 0;
 }
