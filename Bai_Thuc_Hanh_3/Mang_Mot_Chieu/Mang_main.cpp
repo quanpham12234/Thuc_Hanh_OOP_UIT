@@ -1,9 +1,5 @@
 #include "Mang.h"
 #include <iostream>
-#include <random>
-#include <ctime>
-#include <climits>
-
 
 int main() {
     srand(time(nullptr)); // Khởi tạo seed cho hàm rand() để tạo số ngẫu nhiên khác nhau mỗi lần chạy
