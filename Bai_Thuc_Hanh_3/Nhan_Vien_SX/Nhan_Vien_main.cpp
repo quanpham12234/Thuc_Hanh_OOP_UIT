@@ -29,5 +29,7 @@ int main() {
     cout << "Danh sach nhan vien sau khi sap xep theo luong tang dan: \n";
     list.Xuat();
 
+    cout << "\n\n\n\n\n\n\n";
+    int o; cin >> o;
     return 0;
 }

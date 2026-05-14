@@ -24,5 +24,8 @@ int main() {
     cout << "\nDanh sach thi sinh sau khi sap xep: \n";
     list.Xuat();
 
+cout << "\n\n\n\n";
+int o; cin >> o;
+
     return 0;
 }

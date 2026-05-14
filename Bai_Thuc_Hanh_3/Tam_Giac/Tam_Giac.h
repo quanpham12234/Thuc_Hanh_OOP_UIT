@@ -1,4 +1,4 @@
-#ifndef TAMGIAC_H   // Tránh include nhiều lần
+#ifndef TAMGIAC_H 
 #define TAMGIAC_H
 
 #include <iostream>
@@ -8,7 +8,7 @@ using namespace std;
 class Diem
 {
 public:
-    double x, y; // tọa độ điểm trong mặt phẳng Oxy
+    double x, y; // tọa độ điểm tron    g mặt phẳng Oxy
 
     // Constructor mặc định
     Diem();
@@ -32,9 +32,9 @@ public:
 class cTamGiac
 {
 private:
-    Diem A, B, C; // 3 đỉnh của tam giác
+        Diem A, B, C; // 3 đỉnh của tam giác
 
-    double DoDai(const Diem &a, const Diem& b) const;
+        double DoDai(const Diem &a, const Diem& b) const;
 
 public:
     // Constructor (hàm tạo)

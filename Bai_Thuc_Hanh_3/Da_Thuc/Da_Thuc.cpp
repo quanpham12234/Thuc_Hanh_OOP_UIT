@@ -1,5 +1,4 @@
 #include "Da_Thuc.h"
-
 #include <cmath>
 
 using namespace std;

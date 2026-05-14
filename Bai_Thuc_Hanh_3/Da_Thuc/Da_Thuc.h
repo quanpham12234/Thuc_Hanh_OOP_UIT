@@ -8,10 +8,10 @@ using namespace std;
 
 class cDaThuc
 {
-    private:
+private:
     vector<double> heSo; // heSo[i] là hệ số của x^i
 
-    public:
+public:
     // Constructor mặc định có bậc bằng 0
     cDaThuc();
 
@@ -25,10 +25,10 @@ class cDaThuc
     double TinhGiaTri(double x) const;
 
     // Cộng hai đa thức
-    cDaThuc operator+ (const cDaThuc &other) const;
+    cDaThuc operator+(const cDaThuc &other) const;
 
     // Trừ hai đa thức
-    cDaThuc operator- (const cDaThuc &other) const;
-};  
+    cDaThuc operator-(const cDaThuc &other) const;
+};
 
-#endif 
+#endif

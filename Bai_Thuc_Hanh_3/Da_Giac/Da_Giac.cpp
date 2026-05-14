@@ -97,7 +97,7 @@ double cDaGiac::DienTich() const
 void cDaGiac::Xuat() const
 {
     cout << "Thong tin da giac: \n";
-    for (size_t i = 0; i < a.size(); i++)
+    for (int i = 0; i < a.size(); i++)
     {
         cout << "Dinh " << i + 1 << ": " << a[i] << "\n";
     }
@@ -108,7 +108,7 @@ void cDaGiac::Xuat() const
 // Tịnh tiến đa giác theo vector (dx, dy)
 void cDaGiac::TinhTien(double dx, double dy)
 {
-    for (size_t i = 0; i < a.size(); i++)
+    for (int i = 0; i < a.size(); i++)
     {
         a[i].x += dx;
         a[i].y += dy;

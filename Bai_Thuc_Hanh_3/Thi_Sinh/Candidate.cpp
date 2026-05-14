@@ -80,6 +80,7 @@ double cCandidate::Tong_3_mon() const
 // Constructor mặc định cho lớp cListCandidate
 cListCandidate::cListCandidate()
 {
+    
 }
 
 // Nhập thông tin n người dùng
