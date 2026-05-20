@@ -25,6 +25,6 @@ int main() {
     cout << "\nNhap gia tri x de tinh P(x) cho da thuc thu nhat: ";
     cin >> x;
     cout << "P(" << x << ") = " << dt1(x) << endl;
-
+    
     return 0;
 }

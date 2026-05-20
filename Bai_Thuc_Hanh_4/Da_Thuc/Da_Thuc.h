@@ -5,7 +5,7 @@
 using namespace std;
 
 class DaThuc
-{
+{                                                                                                                                               
 private:
     int bac;      // Bậc của đa thức
     double *heSo; // Mảng động lưu hệ số, heSo[i] tương ứng với hệ số của x^i
